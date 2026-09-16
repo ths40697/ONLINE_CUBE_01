@@ -1,1 +1,1 @@
-websockets==12.0p
+websockets==12.0
