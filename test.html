@@ -20,7 +20,7 @@
 
     // サーバーに接続する
     function connect() {
-      ws = new WebSocket("ws://localhost:8765");
+      ws = new WebSocket("https://online-cube-01-1p8t.onrender.com");
 
       ws.onopen = () => {
         log("✅ 接続成功！");
